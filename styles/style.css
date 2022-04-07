@@ -67,9 +67,9 @@ img {
 }
 
 .name, .qualification, .email {
+    width: 100%;
     padding: 2px;
     margin: 2px;
-    text-align: right;
 }
 
 .name {
