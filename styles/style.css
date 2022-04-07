@@ -1,0 +1,89 @@
+/* ----- RESET & GENERIC RULES ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em 1em;
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* ----- TITLE ----- */
+
+h1 {
+    color: #E93D70;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* ----- PARAGRAPH ----- */
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ----- CARDS ----- */
+
+.staff {
+
+}
+
+.card {
+    background-color: #0F0E17;
+    float: left;
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+    border-radius: 1px;
+}
+
+img {
+    float: left;
+    width: 80px;
+    width: 80px;
+}
+
+.description {
+    float: left;
+}
+
+.card {
+    color: #fff;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.5);
+}
+
+.name, .qualification, .email {
+    padding: 2px;
+    margin: 2px;
+    text-align: right;
+}
+
+.name {
+    float: left; 
+    font-weight: bold;  
+}
+
+.qualification {
+    float: left;
+}
+
+.email {
+    float: left;
+    color: #3FA9EA;
+}
+
+
