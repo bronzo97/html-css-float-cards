@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Comic Neue', cursive;
+    font-family: "Fredoka", sans-serif;
 }
 
 .container {
@@ -47,6 +47,7 @@ p {
     background-color: #0F0E17;
     float: left;
     width: calc((100% / 3) - 20px);
+    min-width: 280px;
     margin: 10px;
     border-radius: 1px;
 }
